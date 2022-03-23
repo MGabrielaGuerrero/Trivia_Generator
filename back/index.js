@@ -1,4 +1,4 @@
 console.log("hola mundo")
-const express = require("express")
+import express from "express"
 
-const BaseDatos = require("./db")
+import sequelize from "./db"
