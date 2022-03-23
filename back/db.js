@@ -1,6 +1,6 @@
-const { Sequileze } = require("sequelize");
+import { Sequelize } from "sequelize/types";
 
-const sequelize = new Sequileze('id18034453_juegotrivia', 'id18034453_mosquera', '>CCT4z|Co0w4}Y<', {
+const sequelize = new  Sequelize('id18034453_juegotrivia', 'id18034453_mosquera', '>CCT4z|Co0w4}Y<', {
     host: "localhost",
     dialect: 'mysql2'
 })
